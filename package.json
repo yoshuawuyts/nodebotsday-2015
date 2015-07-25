@@ -1,0 +1,24 @@
+{
+  "name": "nodebotsday-2015",
+  "version": "1.0.0",
+  "description": "nodebotsday-2015",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && NODE_ENV=test node test",
+    "test-cov": "standard && NODE_ENV=test istanbul cover test.js"
+  },
+  "repository": "yoshuawuyts/nodebotsday-2015",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "ambient-attx4": "^0.2.5",
+    "johnny-five": "^0.8.85",
+    "tessel": "^0.3.23"
+  },
+  "devDependencies": {},
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ]
+}
