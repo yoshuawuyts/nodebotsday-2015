@@ -5,11 +5,11 @@
 [![Downloads][downloads-image]][downloads-url]
 [![js-standard-style][standard-image]][standard-url]
 
-# spark
+## spark
 Experiment 1 was playing with a spark, which kind of failed b/c wifi wasn't
 playing along.
 
-## Getting started
+### Getting started
 We want to load johnnyfive on our spark. This means we need to connect locally
 over serial, and flash our firmware.
 
@@ -24,7 +24,7 @@ Step 1 is to create an account, I did it through the spark iPhone app.
 ```
 - [docs](http://docs.particle.io/core/api/#authentication-generate-a-new-access-token)
 
-## See Also
+### See Also
 - [johnnyfive/spark-core](http://johnny-five.io/platform-support/#spark-core)
 - [spark-io](https://github.com/rwaldron/spark-io)
 - [voodoospark](https://github.com/voodootikigod/voodoospark)
@@ -32,10 +32,10 @@ Step 1 is to create an account, I did it through the spark iPhone app.
 - [build.particle.io](https://build.particle.io/build) - IDE
 - [connecting spark to OSX over serial](http://docs.particle.io/core/connect/#connecting-your-device-using-osx)
 
-# tessel
+## tessel
 Experiment 2 was playing with a tessel.
 
-## Running the thing
+### Running the thing
 Getting the hello world up was pretty straightforward. `npm@3` had some
 failures, but by switching back to `npm@2` we could cirvumvent those. After
 getting the hello world up and running `tessel blink`, `tessel run blink.js`,
@@ -44,8 +44,10 @@ I tried getting the `ambient-attx4` up and running. This caused more issues.
 and running `flatten-packages`. Eventually I ran into LUA issues and decided to
 not continue.
 
-# arduino
-Experiment 3 was playing with an arduino.
+## arduino
+Experiment 3 was playing with an arduino. Got a cute lil LED working. Whoop!
+The way to approach this is by using johnny-five and the appropriate modules.
+The docs are super straight forwarward! :D
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
